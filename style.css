@@ -1,14 +1,14 @@
 #movie-result {
-  background: rgb(244, 98, 181);
+  background: rgb(20, 98, 181);
   border: 5px solid black;
   font-size: 24px;
   height: 160px;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-bottom: 20px;
 }
 
-#book-result {
-  background: rgb(196, 159, 255);
+#game-result {
+  background: rgb(196, 89, 180);
   border: 5px solid black;
   font-size: 24px;
   height: 160px;
@@ -18,5 +18,19 @@
 
 hr {
   height: 5px;
+  background-color: black;
+}
+h1 {
+  background-color: blue;
+  border: 7px solid red;
+  color: rgb(150, 130, 100);
+  font-size: 40px;
+}
+label {
+  background-color: red;
+
+  color: rgb(40, 70, 160);
+}
+h1:hover {
   background-color: black;
 }
